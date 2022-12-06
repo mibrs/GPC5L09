@@ -24,6 +24,8 @@ The following lists allow you to rebuild the patches in order. Each step is a ru
    Allows to modify video’s brightness, contrast and saturation
 2. EFFECTS/DELAYR - Delay, apply feedback to the delay and crossfade/mix original and delayed signal.
 
+![Patch with basic effect player](media/221205_Basic_2.png)
+
 #### MAX comes with a video collection. 
 You find it also on the left side of the screen.
 
