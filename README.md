@@ -1,5 +1,13 @@
 ## Videos with MAX and VIZZIE
 
+VIZZIE is a collection of modules that allow you to work with video content. It is an integral part of MAX, so you can also use it together with all other objects and modules. 
+
+This session is designed using four introductory videos from the Cycling'74 website. You can access them by clicking on the title of each of the sections one to four below. In most cases you can also just follow the screenshots and instructions to patch the projects together. Furthermore, you find some patches ready for download (cloning) on the top level of the repository.
+
+Happy Patching!
+
+
+
 ### 1. [A Brief Introduction to Vizzie](https://youtu.be/59sFC22NVRA)
 This is a first simple patch with a video source and some effects. In order to easily access the modules, click on the ```v``` and then find the module by category or typing its name in the Filter field on top.
 
