@@ -78,7 +78,7 @@ The following lists allow you to rebuild the patches in order. Each step is a ru
 ![Full Project](media/221205_Demo_Debug_Audio.png)
 
 
-### 3.[Video to Data and Data to Video](https://youtu.be/sbfpLhPTbVI)
+### 3. [Video to Data and Data to Video](https://youtu.be/sbfpLhPTbVI)
 Launch the patch “221205_Vid31”.
 
 #### What to do?
@@ -112,7 +112,7 @@ The video shows you how to get these abstractions and use a matrix (PATCHROUTR) 
 - The abstractions are created by making a new object and then typing the name of the abstraction, see explanations above.
 
 
-### 5. Use your webcam with Vizzie
+### 5. Use Your Webcam With Vizzie
 
 ![VideoMix](media/221205_Vid5_Project.png)
 
