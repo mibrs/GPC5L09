@@ -24,7 +24,7 @@ You find it also on the left side of the screen.
 #### 3. Add Randomness to the Effects
 1. GENERATE/ATTRACTR
 
-![Final Project]( media/221205_Basic_Full.png)
+![Final Project](media/221205_Basic_Full.png)
 
 
 ### 2. [Vizzie Visions: Part 2, BEAP Modules](https://youtu.be/xcs-kKaN6QQ)
@@ -44,7 +44,7 @@ The following lists allow you to rebuild the patches in order. Each step is a ru
 3. OUTPUT/VIEWR
 4. CONTROL/FADR
 
-![Project Part 1](221205_P2_basic.png)
+![Project Part 1](media/221205_P2_basic.png)
 
 #### 2. BEAP’s LFO controls the PIXL8R
 1. In BEAP get LFO/CV LFO
@@ -52,7 +52,7 @@ The following lists allow you to rebuild the patches in order. Each step is a ru
 3. In VIZZIE get UTILITY/BEAPCONVERTR
 4. Set in the converter the range to 0..5V.
 
-![Project Part 2](221205_P2_Part23.png)
+![Project Part 2](media/221205_P2_Part23.png)
 
 #### 3. Add audio source
 1. Add audio player
@@ -67,7 +67,7 @@ The following lists allow you to rebuild the patches in order. Each step is a ru
 2. GENERATE/ATTRACTR
 3. UTILITY/VIZZIECONVERTR
 
-![Full Project](221205_Demo_Debug_Audio.png)
+![Full Project](media/221205_Demo_Debug_Audio.png)
 
 
 ### 3.[Video to Data and Data to Video](https://youtu.be/sbfpLhPTbVI)
@@ -77,7 +77,7 @@ Launch the patch “221205_Vid31”.
 With no patchcord between ANALYSR and PRIMR, change the three sliders and see what happens.
 Next, reset the sliders to zero by clicking on the button and connect one of the three outlets of ANALYSR to one of the three inlets of PRIMR. Pay attention to the labels of both modules when patching. Predict what will happen when you are choosing different scenarios to patch the two modules.
 
-![Analyse and Synthezise Colours](221205_Vid3_AnaSynth.png)
+![Analyse and Synthezise Colours](media/221205_Vid3_AnaSynth.png)
 
 The three sliders allow to synthezise (mix) the three colour components red, green and blue to get whatever colour you like to get. The result can be seen on VIEWR if there is no signal coming from the ANALYSR module. Reset the sliders and the PRIMR module by banging the button before starting to change the values of the sliders.
 
@@ -89,11 +89,11 @@ Attention: When you have connected the ANALYSR module to the PRIMR, it will imme
 ### 4. [Recombinant Patching]( https://cycling74.com/tutorials/vizzie-visions-episode-4-recombinant-patching-made-easy)
 Some Vizzie objects are only available as Abstractions, they look like normal MAX/MSP/JITTER objects and are not shown on the Vizzie menu. They are implemented as ordinary objects by typing ```n``` and entering their name. Each has a Control Panel that can be opend by double-clicking on the object. 
 
-![Control Panel Abstract Objects](221205_Vid4_ObjectOptions.png)
+![Control Panel Abstract Objects](media/221205_Vid4_ObjectOptions.png)
 
 MAX will show you available options once you have typed ```vz.```.
 
-![Kaleidoscope and more Effects](221206_P4_Full.png)
+![Kaleidoscope and more Effects](media/221206_P4_Full.png)
 
 The video shows you how to get these abstractions and use a matrix (PATCHROUTR) to define a chain of abstractions one executed after the other in an order you describe.
 
@@ -106,6 +106,6 @@ The video shows you how to get these abstractions and use a matrix (PATCHROUTR) 
 
 ### 5. Use your webcam with Vizzie
 
-![VideoMix](221205_Vid5_Project.png)
+![VideoMix](media/221205_Vid5_Project.png)
 
 This project is a remix of project 4, we replace the PLAYR module by the GRABBR module. This object gets a feed from your webcam and a second video signal from the PLAYR. An effect (Kaleidoscope) is applied to the signal from the player. We are using a fader (CONTROL/FADR) to mix two video signals. As output you can see preview the signal “live” on a VIEWR module, you can also record your video with the RECORDR module.
