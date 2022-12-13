@@ -93,6 +93,8 @@ The three sliders allow to synthezise (mix) the three colour components red, gre
 
 The ANALYSR module is extracting / analysing the red, green and blue components of the video and giving values between 0.0 (no colour) to 1.0 (fat red/green/blue) . The number stream coming from its outlets, one for each colour, can be fed into the PRIMR module. 
 
+The MAX Documentation has a [Tutorial](https://docs.cycling74.com/max8/tutorials/jitterchapter05) about ARGB Colours (Alpha or Intensity, Red, Green, Blue). Check it out if you want to know more about the subject.
+
 Attention: When you have connected the ANALYSR module to the PRIMR, it will immediatly overwrite the settings of the sliders. 
 
 
