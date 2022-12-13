@@ -99,7 +99,7 @@ Attention: When you have connected the ANALYSR module to the PRIMR, it will imme
 
 
 ### 4. [Recombinant Patching]( https://cycling74.com/tutorials/vizzie-visions-episode-4-recombinant-patching-made-easy)
-Some Vizzie objects are only available as Abstractions, they look like normal MAX/MSP/JITTER objects and are not shown on the Vizzie menu. They are implemented as ordinary objects by typing ```n``` and entering their name. Each has a Control Panel that can be opend by double-clicking on the object. 
+Some Vizzie objects are only available as Abstractions, they look like normal MAX/MSP/JITTER objects and are not shown on the Vizzie menu. They are implemented as ordinary objects, they are accessible by typing ```n``` and entering their name. Each effect has a Control Panel that can be opened by double-clicking on the object. 
 
 ![Control Panel Abstract Objects](media/221205_Vid4_ObjectOptions.png)
 
@@ -107,7 +107,15 @@ MAX will show you available options once you have typed ```vz.```.
 
 ![Kaleidoscope and more Effects](media/221206_P4_Full.png)
 
-The video shows you how to get these abstractions and use a matrix (PATCHROUTR) to define a chain of abstractions one executed after the other in an order you describe.
+The video shows you how to get these abstractions and use a matrix (PATCHROUTR) to define a chain of abstractions one executed after the other in an order you describe. Here are two examples.
+
+The first example connects the input and output directly, there are no effects applied. The cell at the junction of IN line and OUT line is selected.
+
+![IN OUT connect](media/221213_PATCHROUTR_Ex1x.png)
+
+The second example includes one effect. First, the signal is routed from Video In to 4, then from 4 to Video Output. The process of finding the correct cell is similar to identifying (x,y) coordinates, the first value is where the signal is coming from moving along the x axis, the second value where the signal is going to moving along the y axis.
+
+![sketchr applied](media/221213_PATCHROUTR_Ex2x.png)
 
 #### Where to find the modules?
 - INPUT/PLAYR
